@@ -32,7 +32,7 @@ bun run start:worker
 ## 🏗️ Architecture
 
 ### The Sharded Pipeline
-![Architecture](docs/assets/architecture.png)
+![Architecture](docs/assets/thumbnail.png)
 *Flow: User -> Controller -> Shard A (Layers 0-10) -> Shard B (Layers 11-20) -> Result*
 
 ### The "Zero-Copy" Data Plane
